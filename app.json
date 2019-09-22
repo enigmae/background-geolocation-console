@@ -1,0 +1,22 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "GOOGLE_MAPS_API_KEY": {
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "background-geolocation-console",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
